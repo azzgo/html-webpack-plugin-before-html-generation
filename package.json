@@ -1,0 +1,32 @@
+{
+  "name": "html-webpack-plugin-before-html-useref",
+  "version": "0.0.1",
+  "description": "a simple wraper for useref in html-webpack-plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/azzgo/html-webpack-plugin-before-html-generation.git"
+  },
+  "keywords": [
+    "html-webpack-plugin",
+    "useref"
+  ],
+  "author": "azzgo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azzgo/html-webpack-plugin-before-html-generation/issues"
+  },
+  "homepage": "https://github.com/azzgo/html-webpack-plugin-before-html-generation#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-uglify": "^2.1.2",
+    "run-sequence": "^1.2.2",
+    "through2": "^2.0.3",
+    "useref": "^1.2.0"
+  }
+}
