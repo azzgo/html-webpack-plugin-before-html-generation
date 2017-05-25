@@ -18,7 +18,7 @@
     "useref"
   ],
   "author": "azzgo",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/azzgo/html-webpack-plugin-before-html-generation/issues"
   },
