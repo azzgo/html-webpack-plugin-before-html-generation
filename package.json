@@ -7,7 +7,8 @@
     "node": ">6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p libs/tsconfig.json",
+    "test": "webpack --config examples/webpack.config.ts"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,17 @@
     "url": "https://github.com/azzgo/html-webpack-plugin-before-html-generation/issues"
   },
   "homepage": "https://github.com/azzgo/html-webpack-plugin-before-html-generation#readme",
+  "peerDependencies": {
+    "webpack": "webpack@1 || ^2"
+  },
+  "devDependencies": {
+    "@types/webpack": "^2.2.15",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.3",
+    "webpack": "webpack@1 || ^2"
+  },
   "dependencies": {
+    "core-js": "^2.4.1",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.2",
