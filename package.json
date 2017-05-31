@@ -1,6 +1,6 @@
 {
   "name": "webpack-useref-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a simple wraper for useref in html-webpack-plugin",
   "main": "index.js",
   "engines": {
