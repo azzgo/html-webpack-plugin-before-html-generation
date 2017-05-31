@@ -16,7 +16,7 @@ $ npm install html-webpack-plugin webpack-useref-plugin --save-dev
 
 ```javascript
 
-var UserefPlugin = require('html-webpack-plugin-before-html-useref');
+var { UserefPlugin } = require('html-webpack-plugin-before-html-useref');
 
 module.exports = {
   plugins: [
